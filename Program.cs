@@ -111,39 +111,51 @@
 
 // itogzadacha
 
+// int i = 0;
+// int secret = 50;
+// int chislo;
 
+// do
+// {
+//     Console.Write("vvedite chislo: ");
+//     chislo = Convert.ToInt32(Console.ReadLine());
+//     i++;
 
-int i = 0;
-int secret = 50;
-int chislo;
+//     if (chislo > secret)
+//     {
+//         Console.WriteLine("menishe");
+//     }
 
-do
-{
-    Console.Write("vvedite chislo: ");
-    chislo = Convert.ToInt32(Console.ReadLine());
-    i++;
+//     if (chislo < secret)
+//     {
+//         Console.WriteLine("bolshe");
+//     }
 
-    if (chislo > secret)
-    {
-        Console.WriteLine("menishe");
-    }
-
-    if (chislo < secret)
-    {
-        Console.WriteLine("bolshe");
-    }
-
-    if (chislo == secret)
-    {
-        Console.WriteLine($"pobeda, popitok isp = {i}");
-        break;
-    }
+//     if (chislo == secret)
+//     {
+//         Console.WriteLine($"pobeda, popitok isp = {i}");
+//         break;
+//     }
     
-}
-while (i < 5);
+// }
+// while (i < 5);
 
-if (chislo != secret)
-{
-    Console.WriteLine($"pozor {secret}.");
-}
+// if (chislo != secret)
+// {
+//     Console.WriteLine($"pozor {secret}.");
+// }
 
+// dop.zadacha:
+// int chislo = int.Parse(Console.ReadLine());
+// int summa = 0;
+// int kolvo = 0;
+
+// while (chislo > 0)
+// {
+//     summa += chislo % 10;
+//     kolvo++;
+//     chislo = chislo / 10;
+// }
+
+// Console.WriteLine($"sum: {summa}");
+// Console.WriteLine($"kolvo: {kolvo}");
